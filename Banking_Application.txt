@@ -1,0 +1,112 @@
+//Create JSON structure for Banking Application 
+//HDFC Bank
+{"Personal Details":{
+					"Branch Name":"Railway Lines", 
+					"Phone":"0217-231664",
+					"Branch E-Mail ID":"hdfcchala@hdfc.com",
+					"IFSC":"HDFS56",
+					"Account Number":"10145635455435",
+					"Account Name":"HAERSH MEHD",
+	
+	//ADDRESS USING NESTING OF OBJECTS
+	"address":	{
+					"Street Address":"plot no -5 Ashok Chowk",
+					"city":"Vapi",
+					"Pin-Code":"396191",
+					"State":"Gujrat"
+			}
+		"A/C opening date":"24-08-12"
+	}
+	
+	"MY MENU":{
+		"Account Summary":{
+			"A/C Number": "12342345122331",
+			"Avaialable Balance":"234532",
+			"Branch":"Railway Lines",
+			"Name":"HAERSH MEHD",
+			"Currency":"INR"
+			}
+			
+			
+		"Statement Enquiry" : {
+			"From Date (dd/mm/yy)" : "",
+			"To Date (dd/mm/yy)" : "",
+			"No of Transactions Per Page": "10",
+			}
+			
+			
+		"Open Fixed Deposit <Rs 5cr": {
+			"From Account":"",
+			"Place Of FD":"Home Branch",
+			"Amount Of FD":"",
+			"Nature of Deposit":{
+			  "Days(7 to 180)"{
+				"Min Term":"7 days",
+				"Max Term":"180 days",
+				"Min Amt":"10000",
+				"Max Amount":"49999999",
+			   }
+			  "Deposit Period":{
+				"Months":"",
+				"days":"",
+				"Maturity Instructions":"",
+				"Interest Payable":"",
+				"Interest Payable Mode":"",
+				
+			 }
+			 }
+			}
+		
+		
+		"FD summary":{
+		    "FD Account Number":"54542234",
+			"Maturity Amount":"45633",
+			"Maturity Date":"04-05-18",
+			"Branch":"Home Branch",
+			"Currency":"INR",
+			"Deposit Start Date":"04-05-17",
+			"Principal Amount":"43000",
+			"Rate of Interest":"6.00"
+			}
+			
+			
+		"THIRD PARTY TRANSFER":{
+			"NEFT":{
+					"From Account":"",
+					"To Account":"",
+					"Amount":"",
+					"Particulars"
+			}
+			"IMPS":{
+					"From Account":"",
+					"To Account":"",
+					"Amount":"",
+					"Particulars"
+			},
+			"Within Bank",
+			"Visa Pay Direct",
+		}
+		
+			
+		"Request":{
+									"Add Beneficiary":{
+										"Beneficiary Name":"",
+										"Beneficiary Bank":"",
+										"Beneficiary Account Number":"",
+										
+									}
+									"Generate MMID":"",
+									"Retieve MMID":"",
+									"Cancel MMID":"",
+		}
+		
+		"Enquiry":{
+				"View IMPS Fund Transfer",
+				"View RTGS Fund Transfer"
+		}
+	}
+}
+
+
+Completed the task using JSON, concept of JSON Objects and Nesting of Objects.
+Did not Understand how to use JSON Array.
