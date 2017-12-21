@@ -1,0 +1,8 @@
+Hi{name}!
+
+Thank you for the purchase on {date}.
+We hope you are excited about using it.Just as a
+remainder the purchase total was rs{total}.
+Have a great one!
+
+Pratiksha
