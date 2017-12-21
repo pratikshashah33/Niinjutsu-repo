@@ -1,0 +1,19 @@
+{
+	"Mart": {
+		"name": "d_mart",
+		"D_Mart": {
+			"Food": ["Vegetables", "Grocery_items", "Ready_mix"],
+			"Utensils": ["Plastic_Utensils", "Steel_Utensils", "Copper_Utensils", "Aluminium_Utensils"],
+			"Cosmatics": ["Men's_Section", "Women's_Section"],
+			"Clothes": ["Children's_Section", "Adult_Section"],
+			"Fashion garments": {
+				"Men": ["Watches", "Braselets"],
+				"Women": ["Bangels", "Anklets"]
+			},
+			"Stationary": ["Notebook", "Book", "Pencil", "Pen"],
+			"Footwear": {
+				"Section": ["Children's", "Men's", "Women's"]
+			}
+		}
+	}
+}
