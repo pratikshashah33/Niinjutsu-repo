@@ -1,6 +1,6 @@
 {
 	"Mart": {
-		"name": "d_mart",
+		"Name": "Dmart",
 		"D_Mart": {
 			"Food": ["Vegetables", "Grocery_items", "Ready_mix"],
 			"Utensils": ["Plastic_Utensils", "Steel_Utensils", "Copper_Utensils", "Aluminium_Utensils"],
